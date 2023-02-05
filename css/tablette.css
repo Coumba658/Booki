@@ -1,0 +1,52 @@
+
+.chercher {
+    display: none;
+}
+
+#filtres {
+    display: flex;
+    flex-direction: row;
+}
+
+.icones {
+    margin: 5px;
+}
+
+#hebergement {
+    flex-direction: column;
+}
+
+.hebergement-marseille, .populaire {
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.populaire .contenu{
+   display: flex;
+}
+
+.populaire .contenu .card {
+    width: 100%;
+    padding: 3px;
+    margin: 5px;
+}
+
+.populaire .contenu .card h3 {
+    font-size: 9px;
+}
+
+.liste-activite {
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+.liste-activite .colonne article {
+    height: 30px;
+}
+
+.liste-activite .colonne article img {
+    width: 100%;
+    height: calc(100% + 250px);
+}
+

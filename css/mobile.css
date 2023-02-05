@@ -1,0 +1,173 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, .soustitre, #filtres, .info, #activite-marseille, footer  {
+    padding: 0px 20px;
+} 
+
+h1{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+/*************** HEADER ****************/
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header #logo {
+    margin: auto;
+}
+
+header nav ul {
+    margin: 0px -20px;
+}
+
+header nav ul li {
+    width: 100%;
+    border-bottom: 2px solid #F2F2F2;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    border-top: none;
+}
+
+
+/*************** RECHERCHE ****************/
+
+form {
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+button span {
+    display: none;
+}
+
+button .fa-magnifying-glass {
+    display: block;
+    margin-left: -5px;
+}
+
+/*************** FILTRES ****************/
+
+#filtres {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filtres-icones {
+    display: grid;
+    grid-template-columns: 70% 70%;
+    grid-row-gap: 5px;
+}
+
+.icones {
+    font-size: 15px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.info {
+    font-size: 15px;
+}
+
+/*************** HEBERGEMENTS ****************/
+
+.populaire {
+    order: 1;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.populaire .entete .fa_chart_line {
+    right: 50px;
+}
+
+.populaire .contenu {
+    flex-direction: column;
+}
+
+.populaire .contenu .card {
+    width: 96%;
+    margin-bottom: 5px;
+}
+
+.populaire .contenu .card a {
+    margin: 0;
+}
+
+.populaire .contenu .card h3 {
+    font-size: 14px;
+    margin: 10px;
+}
+
+
+.hebergement-marseille {
+    order: 2;
+    border-radius: 0;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.hebergement-marseille .contenu {
+    flex-direction: column;
+}
+
+.hebergement-marseille .contenu .card {
+    width: 98%;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.hebergement-marseille .plus {
+    display: none;
+}
+
+/*************** ACTIVITES A MARSEILLE ****************/
+
+#activite-marseille {
+    margin-top: -20px;
+    margin-left: 20px;
+    height: 1150px;
+    width: 100%;
+}
+
+.liste-activite .colonne {
+    width: 100%;
+    margin-bottom: 25px;
+    height: 260px;
+}
+
+.liste-activite .colonne article img {
+    height: 200px;
+} 
+
+footer {
+    margin-top: 10%;
+    width: 105%;
+    flex-direction: column;
+}
+
+footer .liste {
+    width: auto;
+}
+
+.liste h3 {
+    margin-bottom: -5px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
